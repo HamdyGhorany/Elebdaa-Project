@@ -8,6 +8,9 @@
 .i-plat i {
     font-size: 50px;
 }
+.i-plat i:hover {
+ color: #3ec1d5;
+}
 .design .nivo-control, .nivo-prevNav, .nivo-nextNav{
     display: none !important;
 }

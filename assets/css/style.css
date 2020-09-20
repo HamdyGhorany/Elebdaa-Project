@@ -12,6 +12,7 @@
 html, body {
   height: 100%;
   font-family: 'Cairo', sans-serif;
+  overflow-x: hidden !important;
 }
 .logo h1 {
   font-family: 'Cairo', sans-serif;
@@ -1431,6 +1432,9 @@ preview-2
   position: relative;
   text-align: left;
 }
+.pri_table_list h5 {
+  color: #3EC1D5;
+}
 
 .pri_table_list li.check.cross::after {
   content: "\f00d";
@@ -1452,7 +1456,7 @@ preview-2
   color: #3EC1D5;
 }
 
-.pri_table_list button {
+.pri_table_list a {
   background: #444 none repeat scroll 0 0;
   border: 1px solid #444;
   color: #fff;
@@ -1461,6 +1465,9 @@ preview-2
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
   border-radius: 30px;
+}
+.pri_table_list a:hover {
+  background-color: #3ec1d5;
 }
 
 .pri_table_list > h3 {
@@ -1482,7 +1489,6 @@ preview-2
 .pri_table_list.active {
   transition: all 0.4s ease 0s;
   position: relative;
-  overflow: hidden;
 }
 
 .saleon {
